@@ -37,3 +37,13 @@ D:\Рабочий стол и доки\C#\WindowsFormsApp2 - копия\WindowsF
 D:\Рабочий стол и доки\C#\WindowsFormsApp2 - копия\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
 D:\Рабочий стол и доки\C#\WindowsFormsApp2 - копия\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 D:\Рабочий стол и доки\C#\WindowsFormsApp2 - копия\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\Sergio\Desktop\Game-Of-Life\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\Sergio\Desktop\Game-Of-Life\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\Sergio\Desktop\Game-Of-Life\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojResolveAssemblyReference.cache
+C:\Users\Sergio\Desktop\Game-Of-Life\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.AboutBox1.resources
+C:\Users\Sergio\Desktop\Game-Of-Life\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\Sergio\Desktop\Game-Of-Life\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\Sergio\Desktop\Game-Of-Life\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\Sergio\Desktop\Game-Of-Life\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\Sergio\Desktop\Game-Of-Life\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\Sergio\Desktop\Game-Of-Life\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
