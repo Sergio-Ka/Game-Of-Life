@@ -258,9 +258,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         public System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.TextBox textBox1;
-
-
+        public System.Windows.Forms.TextBox textBox1;
     }
 }
 

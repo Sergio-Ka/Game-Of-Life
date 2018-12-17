@@ -6,7 +6,27 @@ namespace WindowsFormsApp2
     {
         private int x = 4;
         private int y = 4;
+        private int generation = 1;
         public ModelSquare[,] Field { get; set; }
+
+        public int Generation
+        {
+            get
+            {
+                return generation;
+            }
+            set
+            {
+                if (value >= 1)
+                {
+                    generation = value;
+                }
+                else
+                {
+                    generation = 1;
+                }
+            }
+        }
 
         public int X
         {

@@ -50,6 +50,8 @@
                     ModelField.SetSquareValueByCoordinate(i, j, RecountedField[i, j]);
                 }
             }
+
+            ModelField.Generation++; 
         }
     }
 }

@@ -40,6 +40,7 @@ namespace WindowsFormsApp2
             }
 
             Form1.dataGridView1.ClearSelection();
+            Form1.textBox1.Text = (ModelField.Generation).ToString();
         }
     }
 }

@@ -5,7 +5,6 @@ namespace WindowsFormsApp2
 {
     public partial class Form1 : Form
     {
-        int k;
         ModelField ModelField = new ModelField();
 
         // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -21,14 +20,11 @@ namespace WindowsFormsApp2
         {
             ModelField.X = (int)numericUpDown1.Value;
             ModelField.Y = (int)numericUpDown2.Value;
-
-            ModelField.CreateRandomField();
-
+            ModelField.Generation = 1;
             View View = new View();
-            View.UpdateView(ModelField, this);
 
-            k = 1;
-            textBox1.Text = (k).ToString();
+            ModelField.CreateRandomField();            
+            View.UpdateView(ModelField, this);
         }
 
         // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -37,14 +33,11 @@ namespace WindowsFormsApp2
         {
             ModelField.X = (int)numericUpDown1.Value;
             ModelField.Y = (int)numericUpDown2.Value;
-
-            ModelField.ClearField();
-
+            ModelField.Generation = 1;
             View View = new View();
-            View.UpdateView(ModelField, this);
 
-            k = 1;
-            textBox1.Text = k.ToString();
+            ModelField.ClearField();            
+            View.UpdateView(ModelField, this);
         }
 
         // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -71,8 +64,8 @@ namespace WindowsFormsApp2
 
         private void button5_Click(object sender, EventArgs e) // кнопка about
         {
-            AboutBox1 CloseButton = new AboutBox1();
-            CloseButton.Show();
+            AboutBox1 AboutButton = new AboutBox1();
+            AboutButton.Show();
         }
 
         // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -97,9 +90,6 @@ namespace WindowsFormsApp2
 
             ModelStopGame ModelStopGame = new ModelStopGame();
             ModelStopGame.StopGame(ModelField, this);
-
-            k++;
-            textBox1.Text = k.ToString();
         }
 
         // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
